@@ -17,6 +17,7 @@ env/
 
 # Test and tool caches
 .pytest_cache/
+.pytest-temp/
 .coverage
 htmlcov/
 .mypy_cache/
@@ -37,4 +38,3 @@ session.secret
 Thumbs.db
 .vscode/
 .idea/
-
