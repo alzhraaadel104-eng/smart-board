@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "purpose": "Seed evaluation list for manual or EasyOCR-assisted recognition checks. These are expected labels, not measured model results.",
+  "cases": [
+    { "expected_text": "Login", "expected_role": "button", "difficulty": "print" },
+    { "expected_text": "Email", "expected_role": "input", "input_type": "email", "difficulty": "print" },
+    { "expected_text": "Password", "expected_role": "input", "input_type": "password", "difficulty": "print" },
+    { "expected_text": "Sign in", "expected_role": "button", "difficulty": "handwritten" }
+  ],
+  "known_failure_modes_to_record": [
+    "cursive handwriting",
+    "low contrast or shadows",
+    "rotated or skewed photographs",
+    "text overlapping rectangle strokes",
+    "labels outside the input shape"
+  ]
+}

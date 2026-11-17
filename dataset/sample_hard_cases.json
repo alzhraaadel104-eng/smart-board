@@ -1,0 +1,14 @@
+{
+  "image_width": 1000,
+  "image_height": 800,
+  "elements": [
+    {"id": "element_001", "type": "container", "text": null, "bbox": [50, 40, 950, 760], "confidence": 0.80},
+    {"id": "element_002", "type": "text", "text": null, "bbox": [100, 60, 400, 110], "confidence": 0.90},
+    {"id": "element_003", "type": "button", "text": "<script>alert(1)</script>", "bbox": [100, 200, 350, 250], "confidence": 0.70},
+    {"id": "element_004", "type": "slider", "text": "Unknown type", "bbox": [100, 280, 350, 330], "confidence": 0.60},
+    {"id": "bad id\"><script>", "type": "input", "text": "Weird id", "bbox": [100, 380, 350, 430], "confidence": 0.60},
+    {"id": "element_006", "type": "image", "text": null, "bbox": [500, 200, 900, 500], "confidence": 0.75},
+    {"id": "element_007", "type": "button", "text": "Broken bbox", "bbox": [300, 300, 100, 100], "confidence": 0.10},
+    {"id": "element_008", "type": "input", "text": "Outside image", "bbox": [800, 600, 1200, 900], "confidence": 0.50}
+  ]
+}

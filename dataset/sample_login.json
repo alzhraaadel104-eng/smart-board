@@ -1,0 +1,10 @@
+{
+  "image_width": 1000,
+  "image_height": 800,
+  "elements": [
+    {"id": "element_001", "type": "text", "text": "Login", "bbox": [100, 60, 400, 110], "confidence": 0.95},
+    {"id": "element_002", "type": "input", "text": "Email", "bbox": [100, 200, 350, 250], "confidence": 0.91},
+    {"id": "element_003", "type": "input", "input_type": "password", "text": "Password", "bbox": [100, 280, 350, 330], "confidence": 0.89},
+    {"id": "element_004", "type": "button", "text": "Login", "bbox": [100, 380, 350, 430], "confidence": 0.94}
+  ]
+}

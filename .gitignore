@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+
+# Environments and local configuration
+.venv/
+frontend/node_modules/
+frontend/dist/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local outputs and uploaded files
+backend/output/
+uploads/
+data/
+*.db
+*.sqlite
+*.sqlite3
+session.secret
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
